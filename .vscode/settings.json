@@ -9,7 +9,6 @@
 
   /* WINDOW */
   "window.title": "${rootPath}${separator}${appName}",
-  "window.zoomLevel": -1,
 
   /* EDITOR */
   "editor.trimAutoWhitespace": true,
@@ -29,17 +28,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   /* PRETTIER */
+  "prettier.requireConfig": true,
 
   /* GIT */
   "git.enabled": true,
-  "git.autofetch": false,
-
-  /* PYTHON-DJANGO */
-
-  "python.pythonPath": "simple_env\\Scripts\\python.exe",
-  "files.associations": {
-    "**/templates/*.html": "django-html",
-    "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-  }
+  "git.autofetch": false
 }
