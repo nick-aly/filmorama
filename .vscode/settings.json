@@ -1,0 +1,45 @@
+{
+  /* WORKBENCH */
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "oneDarkPro.vivid": true,
+
+  /* TERMINAL */
+  "terminal.integrated.rendererType": "dom",
+
+  /* WINDOW */
+  "window.title": "${rootPath}${separator}${appName}",
+  "window.zoomLevel": -1,
+
+  /* EDITOR */
+  "editor.trimAutoWhitespace": true,
+  "editor.lineNumbers": "on",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 1500,
+
+  /* JAVASCRIPT */
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  /* TYPERSCRIPT  */
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  /* PRETTIER */
+
+  /* GIT */
+  "git.enabled": true,
+  "git.autofetch": false,
+
+  /* PYTHON-DJANGO */
+
+  "python.pythonPath": "simple_env\\Scripts\\python.exe",
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  }
+}
